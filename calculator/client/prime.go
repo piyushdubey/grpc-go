@@ -12,7 +12,7 @@ func doGetPrimes(c pb.CalculatorServiceClient) {
 	log.Println("doGetPrimes was invoked")
 
 	req := &pb.PrimeRequest{
-		Number: 210,
+		Number: 1239085694304324,
 	}
 
 	stream, err := c.GetPrimes(context.Background(), req)
